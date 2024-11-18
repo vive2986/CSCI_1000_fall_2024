@@ -1,0 +1,31 @@
+
+#attributionContainer{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    margin: auto auto auto auto;
+    background-image: url("images/fractal_hassan_quantum_background.jpg");
+    background-color: rgba(33, 37, 41, 50%);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-blend-mode: multiply;
+    text-align: center;
+}
+
+#attributionTitle{
+    padding-top: 15vh;
+}
+
+.svgIcon{
+    width: 1em;
+    display: inline;
+    margin-left: 1em;
+}
+
+#attributionLink{
+    color: #8b97a1
+}
+
+#attributionLink:hover{
+    color: white;
+}

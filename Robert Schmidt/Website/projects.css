@@ -1,0 +1,14 @@
+a{
+    color: darkblue;
+}
+a:hover{
+    color: purple;
+}
+
+body{
+    background-color: rgb(33,37,41);
+}
+
+div.container-fluid{
+    position: relative; 
+}
