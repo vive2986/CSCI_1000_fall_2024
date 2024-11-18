@@ -1,0 +1,157 @@
+a{
+    color: darkblue;
+}
+a:hover{
+    color: purple;
+}
+
+body{
+    background-color: rgb(33,37,41);
+}
+
+div.container-fluid{
+    position: relative; 
+}
+
+#titleDiv{
+    width: 100%;
+    height: 100vh;
+    margin: auto auto auto auto;
+    background-image: url("images/fractal_hassan_quantum_background.jpg");
+    background-color: rgba(33, 37, 41, 50%);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+#picture-title{
+    padding-top:15vh;
+    color: white;
+}
+
+#professional-picture{
+    width: 300px;
+    margin: 5% auto auto auto;
+    padding: 5px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.foreground{
+    position: relative;
+    z-index: 5;
+}
+
+#AboutPage{
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:rgba(200, 200, 200, 50%);
+    color: white;
+}
+
+#CardGridTitle{
+    padding-top:15vh;
+    color: white;
+}
+
+#card-grid-container{
+    margin-top: -20px;
+    height: 100vh;
+    width: 100%;
+    margin: auto auto auto auto;
+    background-image: url("images/anton-maksimov-5642-su-wrkNQmhmdvY-unsplash.jpg");
+    background-color: rgba(33, 37, 41,70%);
+    background-blend-mode: multiply;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#card-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex: none;
+    justify-content: space-around;
+    min-width: 30em;
+    max-width: 40em;
+    height: 9em;
+    margin: 5px;
+}
+
+.img-fluid{
+    height: 5em;
+    display: block;
+    margin: auto auto auto auto;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body{
+    margin-left: -40px;
+}
+
+#hobbiesSection{
+    margin-top: -20px;
+    height: 100vh;
+    width: 100%;
+    margin: auto auto auto auto;
+    background-image: url("images/abstract-neon-light-background.jpg");
+    background-color: rgba(33, 37, 41, 80%);
+    background-blend-mode: multiply;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#navbarIcon{
+    height:5vh;
+}
+
+#hobbiesCarousel{
+    width: min(80%, 100em);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hobbyImageContainer{
+    width: 100%;
+    height: 40vh;
+}
+
+.hobbyImage{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.svgIcon{
+    width: 1em;
+    display: inline;
+    margin-left: 1em;
+}
+
+.attributionLink, #emailLink{
+    color: #8b97a1!important;
+}
+
+.attributionLink:hover, #emailLink:hover{
+    color: white!important;
+}
+
+
+.carousel-caption-text{
+    width: calc(40vh * 4 / 3);
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color:rgba(100, 100, 100, 0.5);
+    border-radius: 10px;
+}
